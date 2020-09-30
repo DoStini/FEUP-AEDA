@@ -324,13 +324,13 @@ aeda2021_fp01_BINARY_DIR:STATIC=D:/Documents/University/AEDA/FEUP-AEDA/TP/TP1/cm
 aeda2021_fp01_SOURCE_DIR:STATIC=D:/Documents/University/AEDA/FEUP-AEDA/TP/TP1
 
 //Value Computed by CMake
-gmock_BINARY_DIR:STATIC=D:/Documents/University/AEDA/FEUP-AEDA/TP/TP1/cmake-build-debug/lib/googletest-master/googlemock
+gmock_BINARY_DIR:STATIC=D:/Documents/University/AEDA/FEUP-AEDA/TP/TP1/cmake-build-debug/lib/googletest/googlemock
 
 //Dependencies for the target
 gmock_LIB_DEPENDS:STATIC=general;gtest;
 
 //Value Computed by CMake
-gmock_SOURCE_DIR:STATIC=D:/Documents/University/AEDA/FEUP-AEDA/TP/TP1/lib/googletest-master/googlemock
+gmock_SOURCE_DIR:STATIC=D:/Documents/University/AEDA/FEUP-AEDA/TP/TP1/lib/googletest/googlemock
 
 //Build all of Google Mock's own tests.
 gmock_build_tests:BOOL=OFF
@@ -339,16 +339,16 @@ gmock_build_tests:BOOL=OFF
 gmock_main_LIB_DEPENDS:STATIC=general;gmock;
 
 //Value Computed by CMake
-googletest-distribution_BINARY_DIR:STATIC=D:/Documents/University/AEDA/FEUP-AEDA/TP/TP1/cmake-build-debug/lib/googletest-master
+googletest-distribution_BINARY_DIR:STATIC=D:/Documents/University/AEDA/FEUP-AEDA/TP/TP1/cmake-build-debug/lib/googletest
 
 //Value Computed by CMake
-googletest-distribution_SOURCE_DIR:STATIC=D:/Documents/University/AEDA/FEUP-AEDA/TP/TP1/lib/googletest-master
+googletest-distribution_SOURCE_DIR:STATIC=D:/Documents/University/AEDA/FEUP-AEDA/TP/TP1/lib/googletest
 
 //Value Computed by CMake
-gtest_BINARY_DIR:STATIC=D:/Documents/University/AEDA/FEUP-AEDA/TP/TP1/cmake-build-debug/lib/googletest-master/googletest
+gtest_BINARY_DIR:STATIC=D:/Documents/University/AEDA/FEUP-AEDA/TP/TP1/cmake-build-debug/lib/googletest/googletest
 
 //Value Computed by CMake
-gtest_SOURCE_DIR:STATIC=D:/Documents/University/AEDA/FEUP-AEDA/TP/TP1/lib/googletest-master/googletest
+gtest_SOURCE_DIR:STATIC=D:/Documents/University/AEDA/FEUP-AEDA/TP/TP1/lib/googletest/googletest
 
 //Build gtest's sample programs.
 gtest_build_samples:BOOL=OFF
@@ -574,7 +574,7 @@ FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[C:/Python38/python.exe][v3.8
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 //CMAKE_INSTALL_PREFIX during last run
 _GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX:INTERNAL=C:/Program Files (x86)/aeda2021_fp01
-generated_dir:INTERNAL=D:/Documents/University/AEDA/FEUP-AEDA/TP/TP1/cmake-build-debug/lib/googletest-master/googletest/generated
+generated_dir:INTERNAL=D:/Documents/University/AEDA/FEUP-AEDA/TP/TP1/cmake-build-debug/lib/googletest/googletest/generated
 //ADVANCED property for variable: gmock_build_tests
 gmock_build_tests-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: gtest_build_samples

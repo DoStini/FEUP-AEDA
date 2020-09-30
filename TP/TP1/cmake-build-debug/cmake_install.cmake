@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/Documents/University/AEDA/FEUP-AEDA/TP/TP1/cmake-build-debug/lib/googletest-master/cmake_install.cmake")
+  include("D:/Documents/University/AEDA/FEUP-AEDA/TP/TP1/cmake-build-debug/lib/googletest/cmake_install.cmake")
 
 endif()
 

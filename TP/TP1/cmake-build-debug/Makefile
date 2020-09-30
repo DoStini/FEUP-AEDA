@@ -198,7 +198,7 @@ gmock_main: cmake_check_build_system
 
 # fast build rule for target.
 gmock_main/fast:
-	$(MAKE) $(MAKESILENT) -f lib\googletest-master\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/build
+	$(MAKE) $(MAKESILENT) -f lib\googletest\googlemock\CMakeFiles\gmock_main.dir\build.make lib/googletest/googlemock/CMakeFiles/gmock_main.dir/build
 .PHONY : gmock_main/fast
 
 #=============================================================================
@@ -211,7 +211,7 @@ gmock: cmake_check_build_system
 
 # fast build rule for target.
 gmock/fast:
-	$(MAKE) $(MAKESILENT) -f lib\googletest-master\googlemock\CMakeFiles\gmock.dir\build.make lib/googletest-master/googlemock/CMakeFiles/gmock.dir/build
+	$(MAKE) $(MAKESILENT) -f lib\googletest\googlemock\CMakeFiles\gmock.dir\build.make lib/googletest/googlemock/CMakeFiles/gmock.dir/build
 .PHONY : gmock/fast
 
 #=============================================================================
@@ -224,7 +224,7 @@ gtest: cmake_check_build_system
 
 # fast build rule for target.
 gtest/fast:
-	$(MAKE) $(MAKESILENT) -f lib\googletest-master\googletest\CMakeFiles\gtest.dir\build.make lib/googletest-master/googletest/CMakeFiles/gtest.dir/build
+	$(MAKE) $(MAKESILENT) -f lib\googletest\googletest\CMakeFiles\gtest.dir\build.make lib/googletest/googletest/CMakeFiles/gtest.dir/build
 .PHONY : gtest/fast
 
 #=============================================================================
@@ -237,7 +237,7 @@ gtest_main: cmake_check_build_system
 
 # fast build rule for target.
 gtest_main/fast:
-	$(MAKE) $(MAKESILENT) -f lib\googletest-master\googletest\CMakeFiles\gtest_main.dir\build.make lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/build
+	$(MAKE) $(MAKESILENT) -f lib\googletest\googletest\CMakeFiles\gtest_main.dir\build.make lib/googletest/googletest/CMakeFiles/gtest_main.dir/build
 .PHONY : gtest_main/fast
 
 Tests/parque.obj: Tests/parque.cpp.obj
