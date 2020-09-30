@@ -30,3 +30,6 @@
 *.exe
 *.out
 *.app
+
+# Google Tests stuff
+*lib/googletest-master*
