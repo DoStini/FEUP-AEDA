@@ -1,7 +1,19 @@
 #include "parque.h"
 #include <vector>
+#include <algorithm>
 
 using namespace std;
+
+template <class T>
+class Equals{
+public:
+    explicit Equals(T val){comp = val;}
+    bool operator()(InfoCartao val){
+        return val.nome == comp;
+    }
+private:
+    T comp;
+};
 
 
 ParqueEstacionamento::ParqueEstacionamento(unsigned int lot, unsigned int nMaxCli) : lotacao(lot), numMaximoClientes(nMaxCli) {
@@ -16,7 +28,16 @@ unsigned ParqueEstacionamento::getNumMaximoClientes() const{
     return numMaximoClientes;
 }
 
+
+
+
 int ParqueEstacionamento::posicaoCliente(const string& nome) const{
+
+    Equals<string> eq(nome);
+
+    auto it = std::find_if(clientes.begin(), clientes.end(), eq);
+
+    return it == clientes.end() ? -1 : it - clientes.begin();
 
 
     int out = -1;
