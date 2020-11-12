@@ -13,3 +13,15 @@
 [submodule ".\\TP\\TP4\\lib\\googletest"]
 	path = .\\TP\\TP4\\lib\\googletest
 	url = https://github.com/google/googletest
+[submodule ".\\Tests\\2018-2019\\T1\\lib\\googletest"]
+	path = .\\Tests\\2018-2019\\T1\\lib\\googletest
+	url = https://github.com/google/googletest
+[submodule ".\\Tests\\2018-2019\\T2\\lib\\googletest"]
+	path = .\\Tests\\2018-2019\\T2\\lib\\googletest
+	url = https://github.com/google/googletest
+[submodule ".\\TP\\TP5\\lib\\googletest"]
+	path = .\\TP\\TP5\\lib\\googletest
+	url = https://github.com/google/googletest
+[submodule ".\\TP\\TP6\\lib\\googletest"]
+	path = .\\TP\\TP6\\lib\\googletest
+	url = https://github.com/google/googletest
