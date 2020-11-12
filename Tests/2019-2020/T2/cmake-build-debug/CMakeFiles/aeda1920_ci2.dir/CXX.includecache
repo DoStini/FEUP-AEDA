@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/Documents/University/AEDA/FEUP-AEDA/Tests/2019-2020/T2/Tests/Box.h
+Object.h
+D:/Documents/University/AEDA/FEUP-AEDA/Tests/2019-2020/T2/Tests/Object.h
+
+D:/Documents/University/AEDA/FEUP-AEDA/Tests/2019-2020/T2/Tests/Object.h
+iostream
+-
+string
+-
+
+D:/Documents/University/AEDA/FEUP-AEDA/Tests/2019-2020/T2/Tests/ThinTallBox.h
+stack
+-
+Box.h
+D:/Documents/University/AEDA/FEUP-AEDA/Tests/2019-2020/T2/Tests/Box.h
+
+D:/Documents/University/AEDA/FEUP-AEDA/Tests/2019-2020/T2/Tests/Warehouse.cpp
+Warehouse.h
+D:/Documents/University/AEDA/FEUP-AEDA/Tests/2019-2020/T2/Tests/Warehouse.h
+algorithm
+-
+
+D:/Documents/University/AEDA/FEUP-AEDA/Tests/2019-2020/T2/Tests/Warehouse.h
+queue
+-
+Box.h
+D:/Documents/University/AEDA/FEUP-AEDA/Tests/2019-2020/T2/Tests/Box.h
+Object.h
+D:/Documents/University/AEDA/FEUP-AEDA/Tests/2019-2020/T2/Tests/Object.h
+ThinTallBox.h
+D:/Documents/University/AEDA/FEUP-AEDA/Tests/2019-2020/T2/Tests/ThinTallBox.h
+
