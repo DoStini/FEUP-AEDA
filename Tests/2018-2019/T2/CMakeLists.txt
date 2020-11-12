@@ -3,9 +3,9 @@ project(aeda1819_ci2)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_subdirectory(lib/googletest-master)
-include_directories(lib/googletest-master/googletest/include)
-include_directories(lib/googletest-master/googlemock/include)
+add_subdirectory(lib/googletest)
+include_directories(lib/googletest/googletest/include)
+include_directories(lib/googletest/googlemock/include)
 
 
 

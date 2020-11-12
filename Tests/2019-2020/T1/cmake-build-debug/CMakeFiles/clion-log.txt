@@ -1,0 +1,5 @@
+"D:\Software\CLion 2020.2.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" D:\Documents\University\AEDA\FEUP-AEDA\Tests\2019-2020\T1
+-- Found PythonInterp: C:/Python38/python.exe (found version "3.8.3") 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: D:/Documents/University/AEDA/FEUP-AEDA/Tests/2019-2020/T1/cmake-build-debug

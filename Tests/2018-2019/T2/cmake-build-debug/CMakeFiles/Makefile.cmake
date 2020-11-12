@@ -12,15 +12,15 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.17.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeRCCompiler.cmake"
   "CMakeFiles/3.17.3/CMakeSystem.cmake"
-  "../lib/googletest-master/CMakeLists.txt"
-  "../lib/googletest-master/googlemock/CMakeLists.txt"
-  "../lib/googletest-master/googlemock/cmake/gmock.pc.in"
-  "../lib/googletest-master/googlemock/cmake/gmock_main.pc.in"
-  "../lib/googletest-master/googletest/CMakeLists.txt"
-  "../lib/googletest-master/googletest/cmake/Config.cmake.in"
-  "../lib/googletest-master/googletest/cmake/gtest.pc.in"
-  "../lib/googletest-master/googletest/cmake/gtest_main.pc.in"
-  "../lib/googletest-master/googletest/cmake/internal_utils.cmake"
+  "../lib/googletest/CMakeLists.txt"
+  "../lib/googletest/googlemock/CMakeLists.txt"
+  "../lib/googletest/googlemock/cmake/gmock.pc.in"
+  "../lib/googletest/googlemock/cmake/gmock_main.pc.in"
+  "../lib/googletest/googletest/CMakeLists.txt"
+  "../lib/googletest/googletest/cmake/Config.cmake.in"
+  "../lib/googletest/googletest/cmake/gtest.pc.in"
+  "../lib/googletest/googletest/cmake/gtest_main.pc.in"
+  "../lib/googletest/googletest/cmake/internal_utils.cmake"
   "D:/Software/CLion 2020.2.3/bin/cmake/win/share/cmake-3.17/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
   "D:/Software/CLion 2020.2.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeCInformation.cmake"
   "D:/Software/CLion 2020.2.3/bin/cmake/win/share/cmake-3.17/Modules/CMakeCXXInformation.cmake"
@@ -66,16 +66,16 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "lib/googletest-master/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "lib/googletest-master/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "lib/googletest-master/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lib/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lib/googletest/googlemock/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "lib/googletest/googletest/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/aeda1819_ci2.dir/DependInfo.cmake"
-  "lib/googletest-master/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
-  "lib/googletest-master/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
-  "lib/googletest-master/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
-  "lib/googletest-master/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
+  "lib/googletest/googlemock/CMakeFiles/gmock_main.dir/DependInfo.cmake"
+  "lib/googletest/googlemock/CMakeFiles/gmock.dir/DependInfo.cmake"
+  "lib/googletest/googletest/CMakeFiles/gtest.dir/DependInfo.cmake"
+  "lib/googletest/googletest/CMakeFiles/gtest_main.dir/DependInfo.cmake"
   )
