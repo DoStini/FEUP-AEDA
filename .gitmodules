@@ -31,3 +31,6 @@
 [submodule "Tests/2019-2020/T2/lib/googletest"]
 	path = Tests/2019-2020/T2/lib/googletest
 	url = https://github.com/google/googletest
+[submodule ".\\TP\\TP7\\lib\\googletest"]
+	path = .\\TP\\TP7\\lib\\googletest
+	url = https://www.github.com/google/googletest
