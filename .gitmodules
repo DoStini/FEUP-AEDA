@@ -34,3 +34,9 @@
 [submodule ".\\TP\\TP7\\lib\\googletest"]
 	path = .\\TP\\TP7\\lib\\googletest
 	url = https://www.github.com/google/googletest
+[submodule "TP/TP8/lib/googletest"]
+	path = TP/TP8/lib/googletest
+	url = https://github.com/google/googletest
+[submodule "TP/TP9/lib\\googletest"]
+	path = TP/TP9/lib\\googletest
+	url = https://github.com/google/googletest
