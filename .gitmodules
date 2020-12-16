@@ -43,3 +43,6 @@
 [submodule "Tests/2018-2019/T3/lib/googletest"]
 	path = Tests/2018-2019/T3/lib/googletest
 	url = https://github.com/google/googletest
+[submodule "Tests/2019-2020/T3/lib/googletest"]
+	path = Tests/2019-2020/T3/lib/googletest
+	url = https://github.com/google/googletest
